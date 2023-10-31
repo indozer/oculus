@@ -1,0 +1,146 @@
+@font-face {
+  font-family: Helvetica;
+  src: url("fonts/helvetica_regular.otf");
+}
+
+.header {
+  height: 80px;
+}
+
+.container {
+  width: 1250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.header-nav {
+  display: flex;
+}
+
+.header-list {
+  display: flex;
+  margin-right: 214px;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+.header-item {
+  color: var(--grey, #5c5c5e);
+  font-family: Helvetica;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.header-logo {
+  width: 235px;
+  height: 42px;
+  margin-right: 476px;
+}
+
+.header-bag {
+  width: 24px;
+  height: 24px;
+}
+
+.img-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* hero section */
+
+.hero-section {
+  width: 100.3%;
+  height: 1200px;
+  background-image: url(./img/hero-bgpng.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.hero-title {
+  color: var(--grey, #5c5c5e);
+
+  /* H0 */
+  font-family: Helvetica;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+
+.hero-paragraph {
+  color: var(--grey, #5c5c5e);
+
+  /* H1 */
+  font-family: Helvetica;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 5px;
+}
+
+.hero-price {
+  color: var(--grey, #5c5c5e);
+
+  /* text 13 */
+  font-family: Helvetica;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 50px;
+}
+
+.hero-btn-content {
+    position: relative;
+}
+
+.hero-button {
+  color: var(--white, #f6f4f5);
+  font-family: Helvetica;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  display: inline-flex;
+  padding: 21px 111px;
+  align-items: flex-start;
+  gap: 10px;
+  background: var(
+    --gradient,
+    linear-gradient(180deg, #bc10d8 0%, rgba(80, 0, 250, 0.93) 100%)
+  );
+  margin-bottom: 10px;
+}
+
+.button-price {
+  color: var(--grey, #5c5c5e);
+  font-family: Helvetica;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  position: absolute;
+  top: 0px;
+  left: 297px;
+  padding: 20px 105px;
+  align-items: flex-start;
+  gap: 10px;
+  border: 1px solid var(--gradient, #bc10d8);
+  background: rgba(217, 217, 217, 0);
+}
+
+.hero-p {
+  color: var(--grey, #5c5c5e);
+  font-family: Helvetica;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
